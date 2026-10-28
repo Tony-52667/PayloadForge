@@ -9,7 +9,7 @@ PayloadForge 是一款基于 Python 和 CustomTkinter 开发的图形化安全�
 ## ✨ 核心特性
 
 - **多态组合加密**：支持 `XOR + RC4`、`XOR + AES`、`XOR + AES + RC4` 三种高强度组合加密算法。层层混淆，有效破坏静态特征码。
-- **动态密钥生成**：支持基于系统时区（Timezone）自动生成 MD5 动态密钥（Key），增加自动化沙箱的静态分析难度。
+- **动态密钥生成**：支持基于系统时区（Timezone）自动生成 MD5 动态密钥（Key）。
 - **文件分离技术**：将加密后的 Shellcode 导出为独立的 `payload.bin` 文件，实现 Loader 与 Payload 的物理分离，规避静态查杀。
 - **多语言 Loader 一键生成**：
   - **Python**：依赖 `ctypes`，通过 `VirtualAlloc` 申请可执行内存，`CreateThread` 执行。
@@ -18,7 +18,6 @@ PayloadForge 是一款基于 Python 和 CustomTkinter 开发的图形化安全�
 
 ## 🖼️ 界面预览
 
-*(把这里替换成你运行工具的截图，把截图文件放在同目录下，名字叫 screenshot.png)*
 ![UI Preview](screenshot.png)
 
 ## 🚀 快速开始
