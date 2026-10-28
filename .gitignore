@@ -1,0 +1,7 @@
+*.exe
+payload.bin
+__pycache__/
+dist/
+build/
+*.spec
+.vscode/
