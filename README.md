@@ -1,6 +1,6 @@
 # PayloadForge - Shellcode 载荷多态加密与分离生成器
 
-PayloadForge 是一款基于 Python 和 CustomTkinter 开发的图形化安全研究辅助工具。主要用于安全研究人员在**授权的红蓝对抗、渗透测试**环境中，快速生成经过多态加密和文件分离处理的 Shellcode 加载器（Loader），以评估和测试终端安全设备（如杀毒软件、EDR）的防护与查杀能力。
+PayloadForge 是一款基于 Python 和 CustomTkinter 开发的图形化安全研究辅助工具。主要用于安全研究人员在**授权的红蓝对抗、渗透测试**环境中，快速生成经过多态加密和文件分离处理的 Shellcode 加载器（Loader）。
 
 > ⚠️ **免责声明 (Disclaimer)**
 > **本工具仅供网络安全学习、技术研究及授权测试使用！**
