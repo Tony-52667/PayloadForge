@@ -162,8 +162,9 @@ def generate_action():
     with open("payload.bin", "wb") as f:
         f.write(encrypted_bytes)
 
-    output_code = f"/*\n * [+] 加密成功！模式: {enc_mode}\n * [+] 原始长度: {len(shellcode_bytes)} 字节\n * [+] 密钥 (Key): {key_str}\n */\n\n"
+    output_code = f"/*\n * [+] 加密成功！模式: {enc_mode}\n * [+] 原始长度: {len(shellcode_bytes)} 字节\n * [+] 密钥 (Key): {key_str}\n * [+] 文件路径: {os.path.abspath('payload.bin')}\n */\n\n"
 
+    
     selected_lang = var_lang.get()
 
     if selected_lang == "C":
